@@ -16,8 +16,11 @@ module.exports = {
         secondary: "#DA4DF1",
       },
       textColor: {
-        primary: "#132238",
+        primary: "#A53DFF",
         "gary-light": "#424E60",
+      },
+      borderColor: {
+        primary: "#A53DFF",
       },
       boxShadow: {
         "hero-image": "0 5px 15px rgba(0,0,0,0.3)",
