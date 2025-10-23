@@ -82,7 +82,7 @@
             </nav>
         </header>
         <main>
-            <section id="hero-section" class="hero-section pb-28 px-4 md:px-8">
+            <section id="hero-section" class="hero-section pb-10 md:pb-28 px-4 md:px-8">
                 <div class="lg:grid lg:grid-cols-12 flex flex-col gap-5 xl:gap-0 items-center">
                     <!-- Content Box -->
                     <div class="lg:col-span-7 xl:col-span-6 flex flex-col gap-16">
@@ -140,34 +140,37 @@
                     </div>
                 </div>
             </section>
-            <section id="about-section" class="about-section px-4 md:px-8 hidden">
-                <!-- <div class="grid grid-cols-12"> -->
+            <section id="about-section" class="about-section sm:px-4 md:px-8">
                 <div
-                    class="col-start-2 -col-end-2 shadow-2xl rounded-2xl grid grid-cols-10 p-28 translate-y-20 bg-white w-11/12 lg:w-4/5 mx-auto">
-                    <div class="img-box col-span-4 rounded-lg overflow-hidden">
-                        <img src="../public/accests/image-brown.png" alt="My Photo">
+                    class="sm:shadow-2xl sm:rounded-2xl flex sm:gap-10 lg:gap-0 lg:grid grid-cols-10 p-4 pb-8 sm:p-10 lg:p-16 2xl:p-28 sm:translate-y-20 sm:bg-white w-full sm:w-11/12 lg:w-4/5 mx-auto">
+                    <div class="img-box col-span-4">
+                        <img src="../public/accests/image-brown.png" alt="My Photo"
+                            class="w-full rounded-lg hidden sm:block">
                     </div>
-                    <div class="content-box col-start-6 col-span-full flex flex-col gap-8 justify-center">
-                        <h2 class="font-semibold text-4xl">I am Professional User Experience Developer</h2>
-                        <p class="opacity-80">
+                    <div class="content-box col-start-6 col-span-full flex flex-col gap-4  lg:gap-8 justify-center">
+                        <h2 class="font-semibold text-lg md:text-2xl xl:text-4xl">
+                            <span class="block leading-tight">I am Professional User</span>
+                            <span class="block leading-tight"> Experience Developer</span>
+                        </h2>
+                        <p class="opacity-80 text-xs lg:text-sm flex flex-col gap-2 md:gap-3">
                             <span>
                                 I design and develop services for customers specializing creating stylish, modern
                                 websites,
                                 web services and online
                                 stores. My passion is to design digital user experiences.
                             </span>
-                            <span>I
+                            <span>
                                 I design and develop services for customers specializing creating stylish, modern
                                 websites, web services.
                             </span>
                         </p>
 
-                        <div class="flex gap-3">
+                        <div class="flex gap-3 text-xs md:text-sm 3xl:text-base">
                             <button
-                                class="projects-btn py-1 lg:py-3 px-2 lg:px-6 text-white rounded-md font-semibold bg-primary  transition-all duration-300 hover:bg-primary-dark">My
+                                class="projects-btn py-1 lg:py-3 px-2 lg:px-6 text-white rounded-md font-semibold bg-primary  transition-all duration-300 hover:bg-primary-dark ">My
                                 Projects</button>
                             <button
-                                class="download-CV py-1 lg:py-3 px-2 lg:px-6 border border-primary font-semibold rounded-md text-primary flex gap-1 transition-all duration-300 hover:bg-primary-light">
+                                class="download-CV py-1 lg:py-3 px-2 lg:px-6 border border-primary font-semibold rounded-md text-primary flex items-center gap-1 transition-all duration-300 hover:bg-primary-light ">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-6">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -179,7 +182,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- </div> -->
             </section>
             <!-- Working Process section -->
             <section class="min-h-screen bg-gray-200">

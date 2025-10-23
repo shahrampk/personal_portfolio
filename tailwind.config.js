@@ -7,6 +7,7 @@ module.exports = {
         "work-sans": ['"Work Sans"', "sans-serif"],
       },
       screens: {
+        xs: '420px',
         "3xl": "1920px",
       },
       backgroundColor: {
