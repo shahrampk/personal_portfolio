@@ -7,7 +7,7 @@ module.exports = {
         "work-sans": ['"Work Sans"', "sans-serif"],
       },
       screens: {
-        xs: '420px',
+        xs: "420px",
         "3xl": "1920px",
       },
       backgroundColor: {
@@ -15,6 +15,8 @@ module.exports = {
         "primary-dark": "#8431CC",
         "primary-light": "#EDD8FF",
         secondary: "#DA4DF1",
+        background: "#f8f9fa",
+        CTA: "#132238",
       },
       textColor: {
         primary: "#A53DFF",
