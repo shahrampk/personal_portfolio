@@ -18,7 +18,7 @@ module.exports = {
         background: "#f8f9fa",
         CTA: "#132238",
       },
-      textColor: {
+      colors: {
         primary: "#A53DFF",
         "gary-light": "#424E60",
       },
@@ -27,8 +27,8 @@ module.exports = {
       },
       boxShadow: {
         "hero-image": "0 5px 15px rgba(0,0,0,0.3)",
-        // 'circle': "0 0 10px red",
         circle: "0 0 196px 60px #DA4DF1",
+        custom: "0 5px 16px -2px rgba(0,0,0,0.2)",
       },
     },
   },
