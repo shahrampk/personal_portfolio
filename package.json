@@ -2,14 +2,17 @@
   "name": "learnify",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "parcel": "^2.16.0"
   }
 }
