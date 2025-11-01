@@ -1,3 +1,22 @@
+// Navbar...
+const hamBurger = document.querySelector(".hamburger");
+const mobileNavbar = document.querySelector(".mobile-navbar");
+const crossBtn = document.querySelector(".cross-btn");
+console.log(hamBurger);
+
+function showNavbar() {
+  hamBurger.addEventListener("click", () => {
+    mobileNavbar.classList.remove("translate-x-full");
+  });
+}
+showNavbar();
+function hideNavbar() {
+  crossBtn.addEventListener("click", () => {
+    mobileNavbar.classList.add("translate-x-full");
+  });
+}
+hideNavbar();
+
 // Slider Code...
 function sliderWorking() {
   document.addEventListener("DOMContentLoaded", () => {

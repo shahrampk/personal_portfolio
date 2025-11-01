@@ -16,7 +16,7 @@
 
 <body class="font-work-sans">
     <div
-        class="flex flex-col gap-16 3xl:max-w-screen-3xl mx-auto bg-background selection:bg-primary-dark selection:text-white overflow-x-clip">
+        class="flex flex-col gap-16 3xl:max-w-screen-3xl mx-auto bg-background selection:bg-primary-dark selection:text-white overflow-x-clip relative">
         <header id="header" class="navbar relative overflow-x-clip">
             <div class="px-4 md:px-8 py-5 bg-background flex justify-between items-center relative z-50 w-full">
                 <div class="logo">
@@ -77,6 +77,46 @@
                 class="circle rounded-full h-1 w-56 2xl:w-80 absolute -z-0 right-0 bottom-0 bg-secondary/70  shadow-circle">
             </div>
         </header>
+        <div class="absolute z-50 w-96 h-screen right-0 top-0">
+            <ul class="flex w-fit flex-col bg-red-500 gap-2 justify-center items-center">
+                <li>
+                    <a href="#header"
+                        class="text-sm lg:text-base 3xl:text-xl py-1 lg:py-3 px-2 lg:px-6 hover:text-white hover:bg-primary transition-colors duration-300 inline-block rounded animate-slide-bottom">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#about-section"
+                        class="text-sm lg:text-base 3xl:text-xl py-1 lg:py-3 px-2 lg:px-6 hover:text-white hover:bg-primary transition-colors duration-300 inline-block rounded animate-slide-bottom">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#Working-Process"
+                        class="text-sm lg:text-base 3xl:text-xl py-1 lg:py-3 px-2 lg:px-6 hover:text-white hover:bg-primary transition-colors duration-300 inline-block rounded animate-slide-bottom">
+                        Process
+                    </a>
+                </li>
+                <li>
+                    <a href="#Projects-section"
+                        class="text-sm lg:text-base 3xl:text-xl py-1 lg:py-3 px-2 lg:px-6 hover:text-white hover:bg-primary transition-colors duration-300 inline-block rounded animate-slide-bottom">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#services-section"
+                        class="text-sm lg:text-base 3xl:text-xl py-1 lg:py-3 px-2 lg:px-6 hover:text-white hover:bg-primary transition-colors duration-300 inline-block rounded animate-slide-bottom">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact-section"
+                        class="bg-primary text-sm lg:text-base 3xl:text-xl py-1 lg:py-3 px-2 lg:px-6 text-white hover:bg-primary-dark transition-colors duration-300 inline-block rounded animate-slide-bottom">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
         <main>
             <section id="hero-section" class="hero-section pb-10 md:pb-0 px-4 md:px-8">
                 <div class="lg:grid lg:grid-cols-12 flex flex-col gap-5 xl:gap-0 items-center">
